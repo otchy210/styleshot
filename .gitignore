@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/.cache/
+npm-debug.log
+config.py
+node_modules

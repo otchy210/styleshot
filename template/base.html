@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<!--   <link rel="icon" type="image/png" href="/app/favicon.png"> -->
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="/core/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/core/css/bootstrap-custom.css">
+  <link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+
+
+<header>
+  <div class="navbar navbar-default navbar-fixed-top">
+    {% block header %}{% endblock %}
+  </div>
+</header>
+
+<main class="container">
+  <div clsss="row">
+    {% block main %}{% endblock %}
+  </div>
+</main>
+
+<footer>
+  <div class="navbar navbar-default">
+    <div class="container">
+      <p class="navbar-text">styleshot.otchy.net</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/core/js/jquery-3.1.0.min.js"></script>
+<script src="/core/js/bootstrap.min.js"></script>
+<script src="/app/script.js"></script>
+</body>
+</html>

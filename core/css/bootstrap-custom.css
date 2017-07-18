@@ -1,0 +1,7 @@
+main {
+    margin-top: 105px;
+    min-height: calc(100vh - 187px);
+}
+footer .navbar {
+    margin-bottom: 0;
+}

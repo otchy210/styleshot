@@ -1,0 +1,18 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "Styleshot Google Chrome extension",
+  "main": "main.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:otchy210/styleshot.git/chrome-extension"
+  },
+  "author": "Otchy",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
+}

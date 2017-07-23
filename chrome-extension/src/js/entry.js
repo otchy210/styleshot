@@ -1,3 +1,7 @@
-// dummy comment
 console.log('entry.js');
-// dummy comment
+
+class MyClass {
+    constructor() {
+        console.log('Is it transpiled?')
+    }
+}

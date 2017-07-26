@@ -65,20 +65,16 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+/***/ (function(module, exports) {
 
 console.log('entry.js');
 
-var MyClass = function MyClass() {
-    _classCallCheck(this, MyClass);
+class MyClass {
+    constructor() {
+        console.log('Is it transpiled?')
+    }
+}
 
-    console.log('Is it transpiled?');
-};
 
 /***/ })
 /******/ ]);

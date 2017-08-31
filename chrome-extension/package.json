@@ -4,8 +4,7 @@
   "description": "Styleshot Google Chrome extension",
   "main": "main.js",
   "scripts": {
-    "build": "node scripts/build.js",
-    "build-prod": "node scripts/build.js --minify"
+    "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,13 @@
+const UglifyEsPlugin = require('uglify-es-webpack-plugin');
+
 module.exports = {
-    entry: './src/js/entry.js',
+    entry: {
+        'popup': './src/js/popup.js',
+        'options': './src/js/options.js'
+    },
+    plugins: [new UglifyEsPlugin()],
     output: {
         path: __dirname + '/dist/',
-        filename: './js/app.js'
+        filename: './js/[name].min.js'
     }
 };
